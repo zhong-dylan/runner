@@ -1,0 +1,2588 @@
+fileFormatVersion: 2
+guid: 83d42322ee6eb4207b1112ca367dbb24
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Bind_Head
+  - first:
+      1: 100002
+    second: Bind_HeadTop_End
+  - first:
+      1: 100004
+    second: Bind_Hips
+  - first:
+      1: 100006
+    second: Bind_Joint_GRP
+  - first:
+      1: 100008
+    second: Bind_LeftArm
+  - first:
+      1: 100010
+    second: Bind_LeftFoot
+  - first:
+      1: 100012
+    second: Bind_LeftForeArm
+  - first:
+      1: 100014
+    second: Bind_LeftHand
+  - first:
+      1: 100016
+    second: Bind_LeftHandIndex1
+  - first:
+      1: 100018
+    second: Bind_LeftHandIndex2
+  - first:
+      1: 100020
+    second: Bind_LeftHandIndex3
+  - first:
+      1: 100022
+    second: Bind_LeftHandIndex4
+  - first:
+      1: 100024
+    second: Bind_LeftHandThumb1
+  - first:
+      1: 100026
+    second: Bind_LeftHandThumb2
+  - first:
+      1: 100028
+    second: Bind_LeftHandThumb3
+  - first:
+      1: 100030
+    second: Bind_LeftHandThumb4
+  - first:
+      1: 100032
+    second: Bind_LeftLeg
+  - first:
+      1: 100034
+    second: Bind_LeftShoulder
+  - first:
+      1: 100036
+    second: Bind_LeftToe_End
+  - first:
+      1: 100038
+    second: Bind_LeftToeBase
+  - first:
+      1: 100040
+    second: Bind_LeftUpLeg
+  - first:
+      1: 100042
+    second: Bind_Neck
+  - first:
+      1: 100044
+    second: Bind_RightArm
+  - first:
+      1: 100046
+    second: Bind_RightFoot
+  - first:
+      1: 100048
+    second: Bind_RightForeArm
+  - first:
+      1: 100050
+    second: Bind_RightHand
+  - first:
+      1: 100052
+    second: Bind_RightHandIndex1
+  - first:
+      1: 100054
+    second: Bind_RightHandIndex2
+  - first:
+      1: 100056
+    second: Bind_RightHandIndex3
+  - first:
+      1: 100058
+    second: Bind_RightHandIndex4
+  - first:
+      1: 100060
+    second: Bind_RightHandThumb1
+  - first:
+      1: 100062
+    second: Bind_RightHandThumb2
+  - first:
+      1: 100064
+    second: Bind_RightHandThumb3
+  - first:
+      1: 100066
+    second: Bind_RightHandThumb4
+  - first:
+      1: 100068
+    second: Bind_RightLeg
+  - first:
+      1: 100070
+    second: Bind_RightShoulder
+  - first:
+      1: 100072
+    second: Bind_RightToe_End
+  - first:
+      1: 100074
+    second: Bind_RightToeBase
+  - first:
+      1: 100076
+    second: Bind_RightUpLeg
+  - first:
+      1: 100078
+    second: Bind_Spine
+  - first:
+      1: 100080
+    second: Bind_Spine1
+  - first:
+      1: 100082
+    second: Bind_Spine2
+  - first:
+      1: 100084
+    second: cos_f02
+  - first:
+      1: 100086
+    second: FK_LeftArm
+  - first:
+      1: 100088
+    second: FK_LeftFoot
+  - first:
+      1: 100090
+    second: FK_LeftForeArm
+  - first:
+      1: 100092
+    second: FK_LeftHand
+  - first:
+      1: 100094
+    second: FK_LeftLeg
+  - first:
+      1: 100096
+    second: FK_LeftToe_End
+  - first:
+      1: 100098
+    second: FK_LeftToeBase
+  - first:
+      1: 100100
+    second: FK_LeftUpLeg
+  - first:
+      1: 100102
+    second: FK_RightArm
+  - first:
+      1: 100104
+    second: FK_RightFoot
+  - first:
+      1: 100106
+    second: FK_RightForeArm
+  - first:
+      1: 100108
+    second: FK_RightHand
+  - first:
+      1: 100110
+    second: FK_RightLeg
+  - first:
+      1: 100112
+    second: FK_RightToe_End
+  - first:
+      1: 100114
+    second: FK_RightToeBase
+  - first:
+      1: 100116
+    second: FK_RightUpLeg
+  - first:
+      1: 100118
+    second: Hair01
+  - first:
+      1: 100120
+    second: Hair02
+  - first:
+      1: 100122
+    second: IK_LeftArm
+  - first:
+      1: 100124
+    second: IK_LeftFoot
+  - first:
+      1: 100126
+    second: IK_LeftForeArm
+  - first:
+      1: 100128
+    second: IK_LeftHand
+  - first:
+      1: 100130
+    second: IK_LeftLeg
+  - first:
+      1: 100132
+    second: IK_LeftToe_End
+  - first:
+      1: 100134
+    second: IK_LeftToeBase
+  - first:
+      1: 100136
+    second: IK_LeftUpLeg
+  - first:
+      1: 100138
+    second: IK_RightArm
+  - first:
+      1: 100140
+    second: IK_RightFoot
+  - first:
+      1: 100142
+    second: IK_RightForeArm
+  - first:
+      1: 100144
+    second: IK_RightHand
+  - first:
+      1: 100146
+    second: IK_RightLeg
+  - first:
+      1: 100148
+    second: IK_RightToe_End
+  - first:
+      1: 100150
+    second: IK_RightToeBase
+  - first:
+      1: 100152
+    second: IK_RightUpLeg
+  - first:
+      1: 100154
+    second: joint1
+  - first:
+      1: 100156
+    second: joint2
+  - first:
+      1: 100158
+    second: LeftFoot_IK_BakingLOC
+  - first:
+      1: 100160
+    second: LeftForeArm_IK_BakingLOC
+  - first:
+      1: 100162
+    second: LeftLeg_IK_BakingLOC
+  - first:
+      1: 100164
+    second: //RootNode
+  - first:
+      1: 100166
+    second: Mesh_GRP02
+  - first:
+      1: 100168
+    second: RightFoot_IK_BakingLOC
+  - first:
+      1: 100170
+    second: RightForeArm_IK_BakingLOC
+  - first:
+      1: 100172
+    second: RightLeg_IK_BakingLOC
+  - first:
+      1: 100174
+    second: Joint_GRP
+  - first:
+      1: 100176
+    second: Mesh_GRP
+  - first:
+      1: 100178
+    second: Mesh_polySurface34
+  - first:
+      1: 100180
+    second: group
+  - first:
+      1: 100182
+    second: Male_Mainchar_01_Idle:Bind_Head
+  - first:
+      1: 100184
+    second: Male_Mainchar_01_Idle:Bind_HeadTop_End
+  - first:
+      1: 100186
+    second: Male_Mainchar_01_Idle:Bind_Hips
+  - first:
+      1: 100188
+    second: Male_Mainchar_01_Idle:Bind_Joint_GRP
+  - first:
+      1: 100190
+    second: Male_Mainchar_01_Idle:Bind_LeftArm
+  - first:
+      1: 100192
+    second: Male_Mainchar_01_Idle:Bind_LeftFoot
+  - first:
+      1: 100194
+    second: Male_Mainchar_01_Idle:Bind_LeftForeArm
+  - first:
+      1: 100196
+    second: Male_Mainchar_01_Idle:Bind_LeftHand
+  - first:
+      1: 100198
+    second: Male_Mainchar_01_Idle:Bind_LeftLeg
+  - first:
+      1: 100200
+    second: Male_Mainchar_01_Idle:Bind_LeftShoulder
+  - first:
+      1: 100202
+    second: Male_Mainchar_01_Idle:Bind_LeftToe_End
+  - first:
+      1: 100204
+    second: Male_Mainchar_01_Idle:Bind_LeftToeBase
+  - first:
+      1: 100206
+    second: Male_Mainchar_01_Idle:Bind_LeftUpLeg
+  - first:
+      1: 100208
+    second: Male_Mainchar_01_Idle:Bind_Neck
+  - first:
+      1: 100210
+    second: Male_Mainchar_01_Idle:Bind_RightArm
+  - first:
+      1: 100212
+    second: Male_Mainchar_01_Idle:Bind_RightFoot
+  - first:
+      1: 100214
+    second: Male_Mainchar_01_Idle:Bind_RightForeArm
+  - first:
+      1: 100216
+    second: Male_Mainchar_01_Idle:Bind_RightHand
+  - first:
+      1: 100218
+    second: Male_Mainchar_01_Idle:Bind_RightLeg
+  - first:
+      1: 100220
+    second: Male_Mainchar_01_Idle:Bind_RightShoulder
+  - first:
+      1: 100222
+    second: Male_Mainchar_01_Idle:Bind_RightToe_End
+  - first:
+      1: 100224
+    second: Male_Mainchar_01_Idle:Bind_RightToeBase
+  - first:
+      1: 100226
+    second: Male_Mainchar_01_Idle:Bind_RightUpLeg
+  - first:
+      1: 100228
+    second: Male_Mainchar_01_Idle:Bind_Spine
+  - first:
+      1: 100230
+    second: Male_Mainchar_01_Idle:Bind_Spine1
+  - first:
+      1: 100232
+    second: Male_Mainchar_01_Idle:Bind_Spine2
+  - first:
+      1: 100234
+    second: Male_Mainchar_01_Idle:FK_LeftArm
+  - first:
+      1: 100236
+    second: Male_Mainchar_01_Idle:FK_LeftFoot
+  - first:
+      1: 100238
+    second: Male_Mainchar_01_Idle:FK_LeftForeArm
+  - first:
+      1: 100240
+    second: Male_Mainchar_01_Idle:FK_LeftHand
+  - first:
+      1: 100242
+    second: Male_Mainchar_01_Idle:FK_LeftLeg
+  - first:
+      1: 100244
+    second: Male_Mainchar_01_Idle:FK_LeftToe_End
+  - first:
+      1: 100246
+    second: Male_Mainchar_01_Idle:FK_LeftToeBase
+  - first:
+      1: 100248
+    second: Male_Mainchar_01_Idle:FK_LeftUpLeg
+  - first:
+      1: 100250
+    second: Male_Mainchar_01_Idle:FK_RightArm
+  - first:
+      1: 100252
+    second: Male_Mainchar_01_Idle:FK_RightFoot
+  - first:
+      1: 100254
+    second: Male_Mainchar_01_Idle:FK_RightForeArm
+  - first:
+      1: 100256
+    second: Male_Mainchar_01_Idle:FK_RightHand
+  - first:
+      1: 100258
+    second: Male_Mainchar_01_Idle:FK_RightLeg
+  - first:
+      1: 100260
+    second: Male_Mainchar_01_Idle:FK_RightToe_End
+  - first:
+      1: 100262
+    second: Male_Mainchar_01_Idle:FK_RightToeBase
+  - first:
+      1: 100264
+    second: Male_Mainchar_01_Idle:FK_RightUpLeg
+  - first:
+      1: 100266
+    second: Male_Mainchar_01_Idle:group
+  - first:
+      1: 100268
+    second: Male_Mainchar_01_Idle:IK_LeftArm
+  - first:
+      1: 100270
+    second: Male_Mainchar_01_Idle:IK_LeftFoot
+  - first:
+      1: 100272
+    second: Male_Mainchar_01_Idle:IK_LeftForeArm
+  - first:
+      1: 100274
+    second: Male_Mainchar_01_Idle:IK_LeftHand
+  - first:
+      1: 100276
+    second: Male_Mainchar_01_Idle:IK_LeftLeg
+  - first:
+      1: 100278
+    second: Male_Mainchar_01_Idle:IK_LeftToe_End
+  - first:
+      1: 100280
+    second: Male_Mainchar_01_Idle:IK_LeftToeBase
+  - first:
+      1: 100282
+    second: Male_Mainchar_01_Idle:IK_LeftUpLeg
+  - first:
+      1: 100284
+    second: Male_Mainchar_01_Idle:IK_RightArm
+  - first:
+      1: 100286
+    second: Male_Mainchar_01_Idle:IK_RightFoot
+  - first:
+      1: 100288
+    second: Male_Mainchar_01_Idle:IK_RightForeArm
+  - first:
+      1: 100290
+    second: Male_Mainchar_01_Idle:IK_RightHand
+  - first:
+      1: 100292
+    second: Male_Mainchar_01_Idle:IK_RightLeg
+  - first:
+      1: 100294
+    second: Male_Mainchar_01_Idle:IK_RightToe_End
+  - first:
+      1: 100296
+    second: Male_Mainchar_01_Idle:IK_RightToeBase
+  - first:
+      1: 100298
+    second: Male_Mainchar_01_Idle:IK_RightUpLeg
+  - first:
+      1: 100300
+    second: Male_Mainchar_01_Idle:Joint_GRP
+  - first:
+      1: 100302
+    second: Male_Mainchar_01_Idle:LeftFoot_IK_BakingLOC
+  - first:
+      1: 100304
+    second: Male_Mainchar_01_Idle:LeftForeArm_IK_BakingLOC
+  - first:
+      1: 100306
+    second: Male_Mainchar_01_Idle:LeftLeg_IK_BakingLOC
+  - first:
+      1: 100308
+    second: Male_Mainchar_01_Idle:Mesh_GRP
+  - first:
+      1: 100310
+    second: Male_Mainchar_01_Idle:Mesh_polySurface34
+  - first:
+      1: 100312
+    second: Male_Mainchar_01_Idle:RightFoot_IK_BakingLOC
+  - first:
+      1: 100314
+    second: Male_Mainchar_01_Idle:RightForeArm_IK_BakingLOC
+  - first:
+      1: 100316
+    second: Male_Mainchar_01_Idle:RightLeg_IK_BakingLOC
+  - first:
+      4: 400000
+    second: Bind_Head
+  - first:
+      4: 400002
+    second: Bind_HeadTop_End
+  - first:
+      4: 400004
+    second: Bind_Hips
+  - first:
+      4: 400006
+    second: Bind_Joint_GRP
+  - first:
+      4: 400008
+    second: Bind_LeftArm
+  - first:
+      4: 400010
+    second: Bind_LeftFoot
+  - first:
+      4: 400012
+    second: Bind_LeftForeArm
+  - first:
+      4: 400014
+    second: Bind_LeftHand
+  - first:
+      4: 400016
+    second: Bind_LeftHandIndex1
+  - first:
+      4: 400018
+    second: Bind_LeftHandIndex2
+  - first:
+      4: 400020
+    second: Bind_LeftHandIndex3
+  - first:
+      4: 400022
+    second: Bind_LeftHandIndex4
+  - first:
+      4: 400024
+    second: Bind_LeftHandThumb1
+  - first:
+      4: 400026
+    second: Bind_LeftHandThumb2
+  - first:
+      4: 400028
+    second: Bind_LeftHandThumb3
+  - first:
+      4: 400030
+    second: Bind_LeftHandThumb4
+  - first:
+      4: 400032
+    second: Bind_LeftLeg
+  - first:
+      4: 400034
+    second: Bind_LeftShoulder
+  - first:
+      4: 400036
+    second: Bind_LeftToe_End
+  - first:
+      4: 400038
+    second: Bind_LeftToeBase
+  - first:
+      4: 400040
+    second: Bind_LeftUpLeg
+  - first:
+      4: 400042
+    second: Bind_Neck
+  - first:
+      4: 400044
+    second: Bind_RightArm
+  - first:
+      4: 400046
+    second: Bind_RightFoot
+  - first:
+      4: 400048
+    second: Bind_RightForeArm
+  - first:
+      4: 400050
+    second: Bind_RightHand
+  - first:
+      4: 400052
+    second: Bind_RightHandIndex1
+  - first:
+      4: 400054
+    second: Bind_RightHandIndex2
+  - first:
+      4: 400056
+    second: Bind_RightHandIndex3
+  - first:
+      4: 400058
+    second: Bind_RightHandIndex4
+  - first:
+      4: 400060
+    second: Bind_RightHandThumb1
+  - first:
+      4: 400062
+    second: Bind_RightHandThumb2
+  - first:
+      4: 400064
+    second: Bind_RightHandThumb3
+  - first:
+      4: 400066
+    second: Bind_RightHandThumb4
+  - first:
+      4: 400068
+    second: Bind_RightLeg
+  - first:
+      4: 400070
+    second: Bind_RightShoulder
+  - first:
+      4: 400072
+    second: Bind_RightToe_End
+  - first:
+      4: 400074
+    second: Bind_RightToeBase
+  - first:
+      4: 400076
+    second: Bind_RightUpLeg
+  - first:
+      4: 400078
+    second: Bind_Spine
+  - first:
+      4: 400080
+    second: Bind_Spine1
+  - first:
+      4: 400082
+    second: Bind_Spine2
+  - first:
+      4: 400084
+    second: cos_f02
+  - first:
+      4: 400086
+    second: FK_LeftArm
+  - first:
+      4: 400088
+    second: FK_LeftFoot
+  - first:
+      4: 400090
+    second: FK_LeftForeArm
+  - first:
+      4: 400092
+    second: FK_LeftHand
+  - first:
+      4: 400094
+    second: FK_LeftLeg
+  - first:
+      4: 400096
+    second: FK_LeftToe_End
+  - first:
+      4: 400098
+    second: FK_LeftToeBase
+  - first:
+      4: 400100
+    second: FK_LeftUpLeg
+  - first:
+      4: 400102
+    second: FK_RightArm
+  - first:
+      4: 400104
+    second: FK_RightFoot
+  - first:
+      4: 400106
+    second: FK_RightForeArm
+  - first:
+      4: 400108
+    second: FK_RightHand
+  - first:
+      4: 400110
+    second: FK_RightLeg
+  - first:
+      4: 400112
+    second: FK_RightToe_End
+  - first:
+      4: 400114
+    second: FK_RightToeBase
+  - first:
+      4: 400116
+    second: FK_RightUpLeg
+  - first:
+      4: 400118
+    second: Hair01
+  - first:
+      4: 400120
+    second: Hair02
+  - first:
+      4: 400122
+    second: IK_LeftArm
+  - first:
+      4: 400124
+    second: IK_LeftFoot
+  - first:
+      4: 400126
+    second: IK_LeftForeArm
+  - first:
+      4: 400128
+    second: IK_LeftHand
+  - first:
+      4: 400130
+    second: IK_LeftLeg
+  - first:
+      4: 400132
+    second: IK_LeftToe_End
+  - first:
+      4: 400134
+    second: IK_LeftToeBase
+  - first:
+      4: 400136
+    second: IK_LeftUpLeg
+  - first:
+      4: 400138
+    second: IK_RightArm
+  - first:
+      4: 400140
+    second: IK_RightFoot
+  - first:
+      4: 400142
+    second: IK_RightForeArm
+  - first:
+      4: 400144
+    second: IK_RightHand
+  - first:
+      4: 400146
+    second: IK_RightLeg
+  - first:
+      4: 400148
+    second: IK_RightToe_End
+  - first:
+      4: 400150
+    second: IK_RightToeBase
+  - first:
+      4: 400152
+    second: IK_RightUpLeg
+  - first:
+      4: 400154
+    second: joint1
+  - first:
+      4: 400156
+    second: joint2
+  - first:
+      4: 400158
+    second: LeftFoot_IK_BakingLOC
+  - first:
+      4: 400160
+    second: LeftForeArm_IK_BakingLOC
+  - first:
+      4: 400162
+    second: LeftLeg_IK_BakingLOC
+  - first:
+      4: 400164
+    second: //RootNode
+  - first:
+      4: 400166
+    second: Mesh_GRP02
+  - first:
+      4: 400168
+    second: RightFoot_IK_BakingLOC
+  - first:
+      4: 400170
+    second: RightForeArm_IK_BakingLOC
+  - first:
+      4: 400172
+    second: RightLeg_IK_BakingLOC
+  - first:
+      4: 400174
+    second: Joint_GRP
+  - first:
+      4: 400176
+    second: Mesh_GRP
+  - first:
+      4: 400178
+    second: Mesh_polySurface34
+  - first:
+      4: 400180
+    second: group
+  - first:
+      4: 400182
+    second: Male_Mainchar_01_Idle:Bind_Head
+  - first:
+      4: 400184
+    second: Male_Mainchar_01_Idle:Bind_HeadTop_End
+  - first:
+      4: 400186
+    second: Male_Mainchar_01_Idle:Bind_Hips
+  - first:
+      4: 400188
+    second: Male_Mainchar_01_Idle:Bind_Joint_GRP
+  - first:
+      4: 400190
+    second: Male_Mainchar_01_Idle:Bind_LeftArm
+  - first:
+      4: 400192
+    second: Male_Mainchar_01_Idle:Bind_LeftFoot
+  - first:
+      4: 400194
+    second: Male_Mainchar_01_Idle:Bind_LeftForeArm
+  - first:
+      4: 400196
+    second: Male_Mainchar_01_Idle:Bind_LeftHand
+  - first:
+      4: 400198
+    second: Male_Mainchar_01_Idle:Bind_LeftLeg
+  - first:
+      4: 400200
+    second: Male_Mainchar_01_Idle:Bind_LeftShoulder
+  - first:
+      4: 400202
+    second: Male_Mainchar_01_Idle:Bind_LeftToe_End
+  - first:
+      4: 400204
+    second: Male_Mainchar_01_Idle:Bind_LeftToeBase
+  - first:
+      4: 400206
+    second: Male_Mainchar_01_Idle:Bind_LeftUpLeg
+  - first:
+      4: 400208
+    second: Male_Mainchar_01_Idle:Bind_Neck
+  - first:
+      4: 400210
+    second: Male_Mainchar_01_Idle:Bind_RightArm
+  - first:
+      4: 400212
+    second: Male_Mainchar_01_Idle:Bind_RightFoot
+  - first:
+      4: 400214
+    second: Male_Mainchar_01_Idle:Bind_RightForeArm
+  - first:
+      4: 400216
+    second: Male_Mainchar_01_Idle:Bind_RightHand
+  - first:
+      4: 400218
+    second: Male_Mainchar_01_Idle:Bind_RightLeg
+  - first:
+      4: 400220
+    second: Male_Mainchar_01_Idle:Bind_RightShoulder
+  - first:
+      4: 400222
+    second: Male_Mainchar_01_Idle:Bind_RightToe_End
+  - first:
+      4: 400224
+    second: Male_Mainchar_01_Idle:Bind_RightToeBase
+  - first:
+      4: 400226
+    second: Male_Mainchar_01_Idle:Bind_RightUpLeg
+  - first:
+      4: 400228
+    second: Male_Mainchar_01_Idle:Bind_Spine
+  - first:
+      4: 400230
+    second: Male_Mainchar_01_Idle:Bind_Spine1
+  - first:
+      4: 400232
+    second: Male_Mainchar_01_Idle:Bind_Spine2
+  - first:
+      4: 400234
+    second: Male_Mainchar_01_Idle:FK_LeftArm
+  - first:
+      4: 400236
+    second: Male_Mainchar_01_Idle:FK_LeftFoot
+  - first:
+      4: 400238
+    second: Male_Mainchar_01_Idle:FK_LeftForeArm
+  - first:
+      4: 400240
+    second: Male_Mainchar_01_Idle:FK_LeftHand
+  - first:
+      4: 400242
+    second: Male_Mainchar_01_Idle:FK_LeftLeg
+  - first:
+      4: 400244
+    second: Male_Mainchar_01_Idle:FK_LeftToe_End
+  - first:
+      4: 400246
+    second: Male_Mainchar_01_Idle:FK_LeftToeBase
+  - first:
+      4: 400248
+    second: Male_Mainchar_01_Idle:FK_LeftUpLeg
+  - first:
+      4: 400250
+    second: Male_Mainchar_01_Idle:FK_RightArm
+  - first:
+      4: 400252
+    second: Male_Mainchar_01_Idle:FK_RightFoot
+  - first:
+      4: 400254
+    second: Male_Mainchar_01_Idle:FK_RightForeArm
+  - first:
+      4: 400256
+    second: Male_Mainchar_01_Idle:FK_RightHand
+  - first:
+      4: 400258
+    second: Male_Mainchar_01_Idle:FK_RightLeg
+  - first:
+      4: 400260
+    second: Male_Mainchar_01_Idle:FK_RightToe_End
+  - first:
+      4: 400262
+    second: Male_Mainchar_01_Idle:FK_RightToeBase
+  - first:
+      4: 400264
+    second: Male_Mainchar_01_Idle:FK_RightUpLeg
+  - first:
+      4: 400266
+    second: Male_Mainchar_01_Idle:group
+  - first:
+      4: 400268
+    second: Male_Mainchar_01_Idle:IK_LeftArm
+  - first:
+      4: 400270
+    second: Male_Mainchar_01_Idle:IK_LeftFoot
+  - first:
+      4: 400272
+    second: Male_Mainchar_01_Idle:IK_LeftForeArm
+  - first:
+      4: 400274
+    second: Male_Mainchar_01_Idle:IK_LeftHand
+  - first:
+      4: 400276
+    second: Male_Mainchar_01_Idle:IK_LeftLeg
+  - first:
+      4: 400278
+    second: Male_Mainchar_01_Idle:IK_LeftToe_End
+  - first:
+      4: 400280
+    second: Male_Mainchar_01_Idle:IK_LeftToeBase
+  - first:
+      4: 400282
+    second: Male_Mainchar_01_Idle:IK_LeftUpLeg
+  - first:
+      4: 400284
+    second: Male_Mainchar_01_Idle:IK_RightArm
+  - first:
+      4: 400286
+    second: Male_Mainchar_01_Idle:IK_RightFoot
+  - first:
+      4: 400288
+    second: Male_Mainchar_01_Idle:IK_RightForeArm
+  - first:
+      4: 400290
+    second: Male_Mainchar_01_Idle:IK_RightHand
+  - first:
+      4: 400292
+    second: Male_Mainchar_01_Idle:IK_RightLeg
+  - first:
+      4: 400294
+    second: Male_Mainchar_01_Idle:IK_RightToe_End
+  - first:
+      4: 400296
+    second: Male_Mainchar_01_Idle:IK_RightToeBase
+  - first:
+      4: 400298
+    second: Male_Mainchar_01_Idle:IK_RightUpLeg
+  - first:
+      4: 400300
+    second: Male_Mainchar_01_Idle:Joint_GRP
+  - first:
+      4: 400302
+    second: Male_Mainchar_01_Idle:LeftFoot_IK_BakingLOC
+  - first:
+      4: 400304
+    second: Male_Mainchar_01_Idle:LeftForeArm_IK_BakingLOC
+  - first:
+      4: 400306
+    second: Male_Mainchar_01_Idle:LeftLeg_IK_BakingLOC
+  - first:
+      4: 400308
+    second: Male_Mainchar_01_Idle:Mesh_GRP
+  - first:
+      4: 400310
+    second: Male_Mainchar_01_Idle:Mesh_polySurface34
+  - first:
+      4: 400312
+    second: Male_Mainchar_01_Idle:RightFoot_IK_BakingLOC
+  - first:
+      4: 400314
+    second: Male_Mainchar_01_Idle:RightForeArm_IK_BakingLOC
+  - first:
+      4: 400316
+    second: Male_Mainchar_01_Idle:RightLeg_IK_BakingLOC
+  - first:
+      43: 4300000
+    second: cos_f02
+  - first:
+      43: 4300002
+    second: Mesh_polySurface34
+  - first:
+      43: 4300004
+    second: Male_Mainchar_01_Idle:Mesh_polySurface34
+  - first:
+      74: 7400000
+    second: Run
+  - first:
+      74: 7400002
+    second: JumpUp
+  - first:
+      74: 7400004
+    second: JumpDown
+  - first:
+      74: 7400006
+    second: JumpLoop
+  - first:
+      74: 7400008
+    second: TurnLeft
+  - first:
+      74: 7400010
+    second: TurnRight
+  - first:
+      74: 7400012
+    second: Roll
+  - first:
+      74: 7400014
+    second: Dead
+  - first:
+      74: 7400016
+    second: Idel
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: cos_f02
+  - first:
+      137: 13700002
+    second: Mesh_polySurface34
+  - first:
+      137: 13700004
+    second: Male_Mainchar_01_Idle:Mesh_polySurface34
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Run
+      takeName: Cos_F_01_AnimGame
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bind_Joint_GRP
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_LeftUpLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot/Bind_LeftToeBase
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot/Bind_LeftToeBase/Bind_LeftToe_End
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_RightUpLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot/Bind_RightToeBase
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot/Bind_RightToeBase/Bind_RightToe_End
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/IK_LeftArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/IK_LeftArm/IK_LeftForeArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/IK_LeftArm/IK_LeftForeArm/IK_LeftHand
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck/Bind_Head
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck/Bind_Head/Bind_HeadTop_End
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/IK_RightArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/IK_RightArm/IK_RightForeArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/IK_RightArm/IK_RightForeArm/IK_RightHand
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_LeftUpLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_LeftUpLeg/IK_LeftLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_LeftUpLeg/IK_LeftLeg/IK_LeftFoot
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_LeftUpLeg/IK_LeftLeg/IK_LeftFoot/IK_LeftToeBase
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_LeftUpLeg/IK_LeftLeg/IK_LeftFoot/IK_LeftToeBase/IK_LeftToe_End
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_RightUpLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_RightUpLeg/IK_RightLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_RightUpLeg/IK_RightLeg/IK_RightFoot
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_RightUpLeg/IK_RightLeg/IK_RightFoot/IK_RightToeBase
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_RightUpLeg/IK_RightLeg/IK_RightFoot/IK_RightToeBase/IK_RightToe_End
+        weight: 1
+      - path: Mesh_GRP
+        weight: 0
+      - path: Mesh_GRP/Mesh_polySurface34
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: JumpUp
+      takeName: Cos_F_01_AnimGame
+      internalID: 0
+      firstFrame: 80
+      lastFrame: 90
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bind_Joint_GRP
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_LeftUpLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot/Bind_LeftToeBase
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot/Bind_LeftToeBase/Bind_LeftToe_End
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_RightUpLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot/Bind_RightToeBase
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot/Bind_RightToeBase/Bind_RightToe_End
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/IK_LeftArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/IK_LeftArm/IK_LeftForeArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/IK_LeftArm/IK_LeftForeArm/IK_LeftHand
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck/Bind_Head
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck/Bind_Head/Bind_HeadTop_End
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/IK_RightArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/IK_RightArm/IK_RightForeArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/IK_RightArm/IK_RightForeArm/IK_RightHand
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_LeftUpLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_LeftUpLeg/IK_LeftLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_LeftUpLeg/IK_LeftLeg/IK_LeftFoot
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_LeftUpLeg/IK_LeftLeg/IK_LeftFoot/IK_LeftToeBase
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_LeftUpLeg/IK_LeftLeg/IK_LeftFoot/IK_LeftToeBase/IK_LeftToe_End
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_RightUpLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_RightUpLeg/IK_RightLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_RightUpLeg/IK_RightLeg/IK_RightFoot
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_RightUpLeg/IK_RightLeg/IK_RightFoot/IK_RightToeBase
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_RightUpLeg/IK_RightLeg/IK_RightFoot/IK_RightToeBase/IK_RightToe_End
+        weight: 1
+      - path: Mesh_GRP
+        weight: 0
+      - path: Mesh_GRP/Mesh_polySurface34
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: JumpDown
+      takeName: Cos_F_01_AnimGame
+      internalID: 0
+      firstFrame: 90
+      lastFrame: 103
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bind_Joint_GRP
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_LeftUpLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot/Bind_LeftToeBase
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot/Bind_LeftToeBase/Bind_LeftToe_End
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_RightUpLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot/Bind_RightToeBase
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot/Bind_RightToeBase/Bind_RightToe_End
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/IK_LeftArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/IK_LeftArm/IK_LeftForeArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/IK_LeftArm/IK_LeftForeArm/IK_LeftHand
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck/Bind_Head
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck/Bind_Head/Bind_HeadTop_End
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/IK_RightArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/IK_RightArm/IK_RightForeArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/IK_RightArm/IK_RightForeArm/IK_RightHand
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_LeftUpLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_LeftUpLeg/IK_LeftLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_LeftUpLeg/IK_LeftLeg/IK_LeftFoot
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_LeftUpLeg/IK_LeftLeg/IK_LeftFoot/IK_LeftToeBase
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_LeftUpLeg/IK_LeftLeg/IK_LeftFoot/IK_LeftToeBase/IK_LeftToe_End
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_RightUpLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_RightUpLeg/IK_RightLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_RightUpLeg/IK_RightLeg/IK_RightFoot
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_RightUpLeg/IK_RightLeg/IK_RightFoot/IK_RightToeBase
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_RightUpLeg/IK_RightLeg/IK_RightFoot/IK_RightToeBase/IK_RightToe_End
+        weight: 1
+      - path: Mesh_GRP
+        weight: 0
+      - path: Mesh_GRP/Mesh_polySurface34
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: JumpLoop
+      takeName: Cos_F_01_AnimGame
+      internalID: 0
+      firstFrame: 160
+      lastFrame: 190
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bind_Joint_GRP
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_LeftUpLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot/Bind_LeftToeBase
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot/Bind_LeftToeBase/Bind_LeftToe_End
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_RightUpLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot/Bind_RightToeBase
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot/Bind_RightToeBase/Bind_RightToe_End
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/IK_LeftArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/IK_LeftArm/IK_LeftForeArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/IK_LeftArm/IK_LeftForeArm/IK_LeftHand
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck/Bind_Head
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck/Bind_Head/Bind_HeadTop_End
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/IK_RightArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/IK_RightArm/IK_RightForeArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/IK_RightArm/IK_RightForeArm/IK_RightHand
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_LeftUpLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_LeftUpLeg/IK_LeftLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_LeftUpLeg/IK_LeftLeg/IK_LeftFoot
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_LeftUpLeg/IK_LeftLeg/IK_LeftFoot/IK_LeftToeBase
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_LeftUpLeg/IK_LeftLeg/IK_LeftFoot/IK_LeftToeBase/IK_LeftToe_End
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_RightUpLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_RightUpLeg/IK_RightLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_RightUpLeg/IK_RightLeg/IK_RightFoot
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_RightUpLeg/IK_RightLeg/IK_RightFoot/IK_RightToeBase
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_RightUpLeg/IK_RightLeg/IK_RightFoot/IK_RightToeBase/IK_RightToe_End
+        weight: 1
+      - path: Mesh_GRP
+        weight: 0
+      - path: Mesh_GRP/Mesh_polySurface34
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: TurnLeft
+      takeName: Cos_F_01_AnimGame
+      internalID: 0
+      firstFrame: 240
+      lastFrame: 255
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bind_Joint_GRP
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_LeftUpLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot/Bind_LeftToeBase
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot/Bind_LeftToeBase/Bind_LeftToe_End
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_RightUpLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot/Bind_RightToeBase
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot/Bind_RightToeBase/Bind_RightToe_End
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/IK_LeftArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/IK_LeftArm/IK_LeftForeArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/IK_LeftArm/IK_LeftForeArm/IK_LeftHand
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck/Bind_Head
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck/Bind_Head/Bind_HeadTop_End
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/IK_RightArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/IK_RightArm/IK_RightForeArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/IK_RightArm/IK_RightForeArm/IK_RightHand
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_LeftUpLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_LeftUpLeg/IK_LeftLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_LeftUpLeg/IK_LeftLeg/IK_LeftFoot
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_LeftUpLeg/IK_LeftLeg/IK_LeftFoot/IK_LeftToeBase
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_LeftUpLeg/IK_LeftLeg/IK_LeftFoot/IK_LeftToeBase/IK_LeftToe_End
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_RightUpLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_RightUpLeg/IK_RightLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_RightUpLeg/IK_RightLeg/IK_RightFoot
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_RightUpLeg/IK_RightLeg/IK_RightFoot/IK_RightToeBase
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_RightUpLeg/IK_RightLeg/IK_RightFoot/IK_RightToeBase/IK_RightToe_End
+        weight: 1
+      - path: Mesh_GRP
+        weight: 0
+      - path: Mesh_GRP/Mesh_polySurface34
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: TurnRight
+      takeName: Cos_F_01_AnimGame
+      internalID: 0
+      firstFrame: 309
+      lastFrame: 324
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bind_Joint_GRP
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_LeftUpLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot/Bind_LeftToeBase
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot/Bind_LeftToeBase/Bind_LeftToe_End
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_RightUpLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot/Bind_RightToeBase
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot/Bind_RightToeBase/Bind_RightToe_End
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/IK_LeftArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/IK_LeftArm/IK_LeftForeArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/IK_LeftArm/IK_LeftForeArm/IK_LeftHand
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck/Bind_Head
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck/Bind_Head/Bind_HeadTop_End
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/IK_RightArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/IK_RightArm/IK_RightForeArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/IK_RightArm/IK_RightForeArm/IK_RightHand
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_LeftUpLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_LeftUpLeg/IK_LeftLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_LeftUpLeg/IK_LeftLeg/IK_LeftFoot
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_LeftUpLeg/IK_LeftLeg/IK_LeftFoot/IK_LeftToeBase
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_LeftUpLeg/IK_LeftLeg/IK_LeftFoot/IK_LeftToeBase/IK_LeftToe_End
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_RightUpLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_RightUpLeg/IK_RightLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_RightUpLeg/IK_RightLeg/IK_RightFoot
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_RightUpLeg/IK_RightLeg/IK_RightFoot/IK_RightToeBase
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_RightUpLeg/IK_RightLeg/IK_RightFoot/IK_RightToeBase/IK_RightToe_End
+        weight: 1
+      - path: Mesh_GRP
+        weight: 0
+      - path: Mesh_GRP/Mesh_polySurface34
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Roll
+      takeName: Cos_F_01_AnimGame
+      internalID: 0
+      firstFrame: 380
+      lastFrame: 392
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bind_Joint_GRP
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_LeftUpLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot/Bind_LeftToeBase
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot/Bind_LeftToeBase/Bind_LeftToe_End
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_RightUpLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot/Bind_RightToeBase
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot/Bind_RightToeBase/Bind_RightToe_End
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/IK_LeftArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/IK_LeftArm/IK_LeftForeArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/IK_LeftArm/IK_LeftForeArm/IK_LeftHand
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck/Bind_Head
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck/Bind_Head/Bind_HeadTop_End
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/IK_RightArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/IK_RightArm/IK_RightForeArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/IK_RightArm/IK_RightForeArm/IK_RightHand
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_LeftUpLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_LeftUpLeg/IK_LeftLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_LeftUpLeg/IK_LeftLeg/IK_LeftFoot
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_LeftUpLeg/IK_LeftLeg/IK_LeftFoot/IK_LeftToeBase
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_LeftUpLeg/IK_LeftLeg/IK_LeftFoot/IK_LeftToeBase/IK_LeftToe_End
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_RightUpLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_RightUpLeg/IK_RightLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_RightUpLeg/IK_RightLeg/IK_RightFoot
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_RightUpLeg/IK_RightLeg/IK_RightFoot/IK_RightToeBase
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_RightUpLeg/IK_RightLeg/IK_RightFoot/IK_RightToeBase/IK_RightToe_End
+        weight: 1
+      - path: Mesh_GRP
+        weight: 0
+      - path: Mesh_GRP/Mesh_polySurface34
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Dead
+      takeName: Cos_F_01_AnimGame
+      internalID: 0
+      firstFrame: 450
+      lastFrame: 473
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bind_Joint_GRP
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_LeftUpLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot/Bind_LeftToeBase
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot/Bind_LeftToeBase/Bind_LeftToe_End
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_RightUpLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot/Bind_RightToeBase
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot/Bind_RightToeBase/Bind_RightToe_End
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/IK_LeftArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/IK_LeftArm/IK_LeftForeArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/IK_LeftArm/IK_LeftForeArm/IK_LeftHand
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck/Bind_Head
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck/Bind_Head/Bind_HeadTop_End
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/IK_RightArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/IK_RightArm/IK_RightForeArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/IK_RightArm/IK_RightForeArm/IK_RightHand
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_LeftUpLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_LeftUpLeg/IK_LeftLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_LeftUpLeg/IK_LeftLeg/IK_LeftFoot
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_LeftUpLeg/IK_LeftLeg/IK_LeftFoot/IK_LeftToeBase
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_LeftUpLeg/IK_LeftLeg/IK_LeftFoot/IK_LeftToeBase/IK_LeftToe_End
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_RightUpLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_RightUpLeg/IK_RightLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_RightUpLeg/IK_RightLeg/IK_RightFoot
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_RightUpLeg/IK_RightLeg/IK_RightFoot/IK_RightToeBase
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/IK_RightUpLeg/IK_RightLeg/IK_RightFoot/IK_RightToeBase/IK_RightToe_End
+        weight: 1
+      - path: Mesh_GRP
+        weight: 0
+      - path: Mesh_GRP/Mesh_polySurface34
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idel
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 550
+      lastFrame: 707
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bind_Joint_GRP
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_LeftUpLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot/Bind_LeftToeBase
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot/Bind_LeftToeBase/Bind_LeftToe_End
+        weight: 0
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_RightUpLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot/Bind_RightToeBase
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot/Bind_RightToeBase/Bind_RightToe_End
+        weight: 0
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/IK_LeftArm
+        weight: 0
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/IK_LeftArm/IK_LeftForeArm
+        weight: 0
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/IK_LeftArm/IK_LeftForeArm/IK_LeftHand
+        weight: 0
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck/Bind_Head
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck/Bind_Head/Bind_HeadTop_End
+        weight: 0
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand
+        weight: 1
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/IK_RightArm
+        weight: 0
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/IK_RightArm/IK_RightForeArm
+        weight: 0
+      - path: Bind_Joint_GRP/Bind_Hips/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/IK_RightArm/IK_RightForeArm/IK_RightHand
+        weight: 0
+      - path: Bind_Joint_GRP/Bind_Hips/IK_LeftUpLeg
+        weight: 0
+      - path: Bind_Joint_GRP/Bind_Hips/IK_LeftUpLeg/IK_LeftLeg
+        weight: 0
+      - path: Bind_Joint_GRP/Bind_Hips/IK_LeftUpLeg/IK_LeftLeg/IK_LeftFoot
+        weight: 0
+      - path: Bind_Joint_GRP/Bind_Hips/IK_LeftUpLeg/IK_LeftLeg/IK_LeftFoot/IK_LeftToeBase
+        weight: 0
+      - path: Bind_Joint_GRP/Bind_Hips/IK_LeftUpLeg/IK_LeftLeg/IK_LeftFoot/IK_LeftToeBase/IK_LeftToe_End
+        weight: 0
+      - path: Bind_Joint_GRP/Bind_Hips/IK_RightUpLeg
+        weight: 0
+      - path: Bind_Joint_GRP/Bind_Hips/IK_RightUpLeg/IK_RightLeg
+        weight: 0
+      - path: Bind_Joint_GRP/Bind_Hips/IK_RightUpLeg/IK_RightLeg/IK_RightFoot
+        weight: 0
+      - path: Bind_Joint_GRP/Bind_Hips/IK_RightUpLeg/IK_RightLeg/IK_RightFoot/IK_RightToeBase
+        weight: 0
+      - path: Bind_Joint_GRP/Bind_Hips/IK_RightUpLeg/IK_RightLeg/IK_RightFoot/IK_RightToeBase/IK_RightToe_End
+        weight: 0
+      - path: Mesh_GRP
+        weight: 0
+      - path: Mesh_GRP/Mesh_polySurface34
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 60
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Bind_Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Player02(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mesh_GRP
+      parentName: Player02(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mesh_polySurface34
+      parentName: Mesh_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bind_Joint_GRP
+      parentName: Player02(Clone)
+      position: {x: -0.0004460692, y: -0.00082691084, z: 0.0033868207}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bind_Hips
+      parentName: Bind_Joint_GRP
+      position: {x: 0.00026604917, y: 0.55892086, z: -0.004434183}
+      rotation: {x: 0.000000012417637, y: -7.709883e-17, z: -0.0000000062088175, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: IK_LeftUpLeg
+      parentName: Bind_Hips
+      position: {x: -0.059922095, y: -0.03562678, z: -0.0000831563}
+      rotation: {x: -0.0043267123, y: -0.095951535, z: 0.9938845, w: 0.05448162}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IK_LeftLeg
+      parentName: IK_LeftUpLeg
+      position: {x: 3.330669e-17, y: 0.25664353, z: 0}
+      rotation: {x: -0.55361533, y: 0.0043220753, z: 0.00027448565, w: 0.8327612}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IK_LeftFoot
+      parentName: IK_LeftLeg
+      position: {x: 4.163336e-17, y: 0.2111727, z: 0}
+      rotation: {x: 0.21708326, y: 0.019528257, z: -0.012899836, w: 0.97587246}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IK_LeftToeBase
+      parentName: IK_LeftFoot
+      position: {x: -1.6653344e-17, y: 0.089024454, z: 4.163336e-18}
+      rotation: {x: 0.25212216, y: 0.11275558, z: -0.029593587, w: 0.9606481}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IK_LeftToe_End
+      parentName: IK_LeftToeBase
+      position: {x: -0, y: 0.035636187, z: -1.040834e-17}
+      rotation: {x: -0.00000012927184, y: -0.000000016782334, z: -2.1694833e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IK_RightUpLeg
+      parentName: Bind_Hips
+      position: {x: 0.059922095, y: -0.03562678, z: -0.0003800187}
+      rotation: {x: 0.1284918, y: 0.65460926, z: 0.7436782, w: 0.0438101}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IK_RightLeg
+      parentName: IK_RightUpLeg
+      position: {x: 3.330669e-17, y: 0.25661564, z: -8.326672e-18}
+      rotation: {x: -0.28106734, y: -0.008910484, z: -0.0014989872, w: 0.95964557}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IK_RightFoot
+      parentName: IK_RightLeg
+      position: {x: 2.4980017e-17, y: 0.211296, z: -8.326672e-18}
+      rotation: {x: 0.43121448, y: 0.10876352, z: 0.042865712, w: 0.89464355}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IK_RightToeBase
+      parentName: IK_RightFoot
+      position: {x: 2.4980017e-17, y: 0.08562937, z: -1.2490009e-17}
+      rotation: {x: 0.2628357, y: -0.11139524, z: 0.030565789, w: 0.95790094}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IK_RightToe_End
+      parentName: IK_RightToeBase
+      position: {x: -0, y: 0.035472002, z: -3.1225022e-18}
+      rotation: {x: -0.00000020922849, y: -8.551745e-15, z: 0.000000040872756, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bind_LeftUpLeg
+      parentName: Bind_Hips
+      position: {x: -0.059922095, y: -0.03562678, z: -0.0000831563}
+      rotation: {x: 0.0015177882, y: -0.024757091, z: 0.99781895, w: 0.06117284}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Bind_LeftLeg
+      parentName: Bind_LeftUpLeg
+      position: {x: 3.330669e-17, y: 0.25664353, z: 0}
+      rotation: {x: 0.041084282, y: -0.00013620513, z: -0.003312688, w: 0.9991502}
+      scale: {x: 1, y: 0.99999976, z: 0.99999994}
+    - name: Bind_LeftFoot
+      parentName: Bind_LeftLeg
+      position: {x: 3.330669e-17, y: 0.2111727, z: 4.163336e-18}
+      rotation: {x: 0.49176162, y: -0.01868228, z: 0.010554565, w: 0.8704655}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bind_LeftToeBase
+      parentName: Bind_LeftFoot
+      position: {x: -0, y: 0.089024454, z: 1.6653344e-17}
+      rotation: {x: 0.25213164, y: 0.112755515, z: -0.029593917, w: 0.9606456}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: Bind_LeftToe_End
+      parentName: Bind_LeftToeBase
+      position: {x: -0, y: 0.035636187, z: -2.081668e-17}
+      rotation: {x: -0.00000012927184, y: -0.000000016782334, z: -2.1694833e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bind_RightUpLeg
+      parentName: Bind_Hips
+      position: {x: 0.059922095, y: -0.03562678, z: -0.0003800187}
+      rotation: {x: -0.0014482993, y: -0.023621516, z: 0.9978461, w: -0.061181065}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000001}
+    - name: Bind_RightLeg
+      parentName: Bind_RightUpLeg
+      position: {x: 3.330669e-17, y: 0.25661564, z: -4.163336e-18}
+      rotation: {x: 0.047335397, y: 0.0001582182, z: 0.0033377714, w: 0.9988735}
+      scale: {x: 0.9999998, y: 0.9999997, z: 1}
+    - name: Bind_RightFoot
+      parentName: Bind_RightLeg
+      position: {x: 1.6653344e-17, y: 0.211296, z: -1.2490009e-17}
+      rotation: {x: 0.47556683, y: 0.020390637, z: -0.011027145, w: 0.87937415}
+      scale: {x: 0.9999997, y: 0.9999999, z: 0.99999976}
+    - name: Bind_RightToeBase
+      parentName: Bind_RightFoot
+      position: {x: 1.6653344e-17, y: 0.08562937, z: 2.4980017e-17}
+      rotation: {x: 0.26284024, y: -0.11139514, z: 0.03056596, w: 0.95789975}
+      scale: {x: 0.9999996, y: 0.99999994, z: 0.9999996}
+    - name: Bind_RightToe_End
+      parentName: Bind_RightToeBase
+      position: {x: -0, y: 0.035472002, z: 0}
+      rotation: {x: -0.00000020922849, y: -8.551745e-15, z: 0.000000040872756, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bind_Spine
+      parentName: Bind_Hips
+      position: {x: -0, y: 0.064074, z: -0.0040824316}
+      rotation: {x: -0.03180882, y: 0.0000000059094343, z: 0.000000009506008, w: 0.999494}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bind_Spine1
+      parentName: Bind_Spine
+      position: {x: -0, y: 0.074904524, z: -8.326672e-18}
+      rotation: {x: 0.00000002235174, y: -0.000000017601783, z: -0.000000016675003,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bind_Spine2
+      parentName: Bind_Spine1
+      position: {x: -0, y: 0.0856053, z: 8.326672e-18}
+      rotation: {x: -0.0000000372529, y: -1.7763566e-15, z: -2.7478016e-15, w: 1}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1.0000001}
+    - name: Bind_Neck
+      parentName: Bind_Spine2
+      position: {x: -0, y: 0.09630586, z: -0.0000000028029334}
+      rotation: {x: 0.031808835, y: 0.0000000122138575, z: 0.0000000066006685, w: 0.999494}
+      scale: {x: 1.0000001, y: 0.99999976, z: 0.99999976}
+    - name: Bind_Head
+      parentName: Bind_Neck
+      position: {x: -0, y: 0.019870019, z: 0.0032191416}
+      rotation: {x: -0.000000024835272, y: -0.0000000011641531, z: 0.000000005238689,
+        w: 1}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1.0000001}
+    - name: Bind_HeadTop_End
+      parentName: Bind_Head
+      position: {x: -0, y: 0.33476564, z: 0.054235417}
+      rotation: {x: -2.0816682e-17, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bind_LeftShoulder
+      parentName: Bind_Spine2
+      position: {x: -0.033739418, y: 0.08152423, z: -0.0010032487}
+      rotation: {x: 0.5676063, y: -0.41581744, z: 0.5822519, w: 0.40731046}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000002}
+    - name: IK_LeftArm
+      parentName: Bind_LeftShoulder
+      position: {x: -2.4980017e-17, y: 0.073857024, z: -1.3322676e-16}
+      rotation: {x: 0.3423402, y: 0.015136241, z: 0.003999118, w: 0.9394457}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IK_LeftForeArm
+      parentName: IK_LeftArm
+      position: {x: 6.661338e-17, y: 0.15332957, z: 2.664535e-16}
+      rotation: {x: 0.0014937912, y: 0.01569445, z: -0.69957584, w: 0.71438444}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IK_LeftHand
+      parentName: IK_LeftForeArm
+      position: {x: -1.6653344e-17, y: 0.15661962, z: 1.3322676e-16}
+      rotation: {x: 0.041749448, y: 0.03359634, z: -0.10057768, w: 0.993485}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bind_LeftArm
+      parentName: Bind_LeftShoulder
+      position: {x: -2.4980017e-17, y: 0.073857024, z: -1.3322676e-16}
+      rotation: {x: -0.14356945, y: -0.12396935, z: 0.009603586, w: 0.98179793}
+      scale: {x: 1.0000002, y: 1.0000006, z: 1.0000005}
+    - name: Bind_LeftForeArm
+      parentName: Bind_LeftArm
+      position: {x: 4.9960035e-17, y: 0.15332957, z: 1.9984014e-16}
+      rotation: {x: 0.0034217376, y: -0.0002687647, z: -0.03209809, w: 0.9994789}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999997}
+    - name: Bind_LeftHand
+      parentName: Bind_LeftForeArm
+      position: {x: 1.6653344e-17, y: 0.15661962, z: 6.661338e-17}
+      rotation: {x: 0.09597728, y: -0.0044995993, z: -0.046616834, w: 0.9942812}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Bind_RightShoulder
+      parentName: Bind_Spine2
+      position: {x: 0.033739418, y: 0.08151643, z: -0.00088085735}
+      rotation: {x: -0.5685285, y: -0.4152767, z: 0.5814221, w: -0.40776095}
+      scale: {x: 0.9999999, y: 1, z: 1.0000001}
+    - name: IK_RightArm
+      parentName: Bind_RightShoulder
+      position: {x: 1.6653344e-17, y: 0.073857024, z: 1.3322676e-16}
+      rotation: {x: 0.34544656, y: 0.25045982, z: -0.1968351, w: 0.8827188}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IK_RightForeArm
+      parentName: IK_RightArm
+      position: {x: 1.6653344e-17, y: 0.1533051, z: -2.664535e-16}
+      rotation: {x: 0.0063329516, y: -0.02282712, z: 0.37156045, w: 0.9281065}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IK_RightHand
+      parentName: IK_RightForeArm
+      position: {x: -1.6653344e-17, y: 0.15663676, z: 2.664535e-16}
+      rotation: {x: -0.037852503, y: 0.1204644, z: 0.013702091, w: 0.9919011}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bind_RightArm
+      parentName: Bind_RightShoulder
+      position: {x: 1.6653344e-17, y: 0.073857024, z: 1.3322676e-16}
+      rotation: {x: 0.1434539, y: -0.1247115, z: 0.01143086, w: -0.9817013}
+      scale: {x: 1.0000001, y: 0.99999994, z: 0.9999999}
+    - name: Bind_RightForeArm
+      parentName: Bind_RightArm
+      position: {x: 1.6653344e-17, y: 0.1533051, z: -6.661338e-17}
+      rotation: {x: 0.0052475766, y: 0.00029630208, z: 0.030829309, w: 0.9995108}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bind_RightHand
+      parentName: Bind_RightForeArm
+      position: {x: 1.6653344e-17, y: 0.15663676, z: 0}
+      rotation: {x: 0.06204395, y: 0.0009830437, z: 0.015811097, w: 0.99794775}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000002}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 60
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
