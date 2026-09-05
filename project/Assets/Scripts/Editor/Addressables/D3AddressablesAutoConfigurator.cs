@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.IO;
 using UnityEditor;
 using UnityEditor.AddressableAssets;
@@ -10,6 +11,7 @@ public static class D3AddressablesAutoConfigurator
     private const string GameRoot = "Assets/Game";
     private const string MainScenePath = "Assets/Main.unity";
     private const string GroupName = "Game";
+    private static readonly char[] InvalidAddressCharacters = { '[', ']' };
 
     static D3AddressablesAutoConfigurator()
     {
@@ -19,12 +21,18 @@ public static class D3AddressablesAutoConfigurator
     [MenuItem("D3 Runner/Addressables/Configure Game Assets")]
     public static void ConfigureProject()
     {
+        ConfigureProject(D3MiniGamePlatformTool.GetActivePlatformDefine());
+    }
+
+    public static void ConfigureProject(string platformDefine)
+    {
         var settings = GetOrCreateSettings();
         if (settings == null)
         {
             return;
         }
 
+        ApplyRemoteProfile(settings, platformDefine);
         var group = GetOrCreateGroup(settings);
         AddGameAssets(settings, group);
         KeepOnlyMainSceneInBuildSettings();
@@ -70,14 +78,24 @@ public static class D3AddressablesAutoConfigurator
         {
             bundledSchema.BuildPath.SetVariableByName(settings, AddressableAssetSettings.kLocalBuildPath);
             bundledSchema.LoadPath.SetVariableByName(settings, AddressableAssetSettings.kLocalLoadPath);
+            bundledSchema.BundleMode = BundledAssetGroupSchema.BundlePackingMode.PackSeparately;
+            bundledSchema.IncludeInBuild = true;
         }
 
         return group;
     }
 
+    private static void ApplyRemoteProfile(AddressableAssetSettings settings, string platformDefine)
+    {
+        settings.BuildRemoteCatalog = false;
+        settings.BuildAddressablesWithPlayerBuild = AddressableAssetSettings.PlayerBuildOption.DoNotBuildWithPlayer;
+        settings.NonRecursiveBuilding = false;
+    }
+
     private static void AddGameAssets(AddressableAssetSettings settings, AddressableAssetGroup group)
     {
         var guids = AssetDatabase.FindAssets(string.Empty, new[] { GameRoot });
+        var paths = new List<string>();
         foreach (var guid in guids)
         {
             var path = AssetDatabase.GUIDToAssetPath(guid);
@@ -86,8 +104,16 @@ public static class D3AddressablesAutoConfigurator
                 continue;
             }
 
+            paths.Add(path);
+        }
+
+        paths.Sort(System.StringComparer.Ordinal);
+        var usedAddresses = new Dictionary<string, string>();
+        foreach (var path in paths)
+        {
+            var guid = AssetDatabase.AssetPathToGUID(path);
             var entry = settings.CreateOrMoveEntry(guid, group, false, false);
-            entry.address = GetAddress(path);
+            entry.address = GetUniqueAddress(path, usedAddresses);
             entry.SetLabel("game", true, true);
 
             if (Path.GetExtension(path).ToLowerInvariant() == ".unity")
@@ -119,7 +145,32 @@ public static class D3AddressablesAutoConfigurator
     {
         var relativePath = path.Substring(GameRoot.Length + 1);
         var withoutExtension = Path.ChangeExtension(relativePath, null);
-        return withoutExtension.Replace("\\", "/");
+        return SanitizeAddress(withoutExtension.Replace("\\", "/"));
+    }
+
+    private static string SanitizeAddress(string address)
+    {
+        foreach (var invalidCharacter in InvalidAddressCharacters)
+        {
+            address = address.Replace(invalidCharacter.ToString(), string.Empty);
+        }
+
+        return address.Trim();
+    }
+
+    private static string GetUniqueAddress(string path, Dictionary<string, string> usedAddresses)
+    {
+        var address = GetAddress(path);
+        var uniqueAddress = address;
+        var suffix = 2;
+        while (usedAddresses.ContainsKey(uniqueAddress))
+        {
+            uniqueAddress = $"{address}_{suffix}";
+            suffix++;
+        }
+
+        usedAddresses.Add(uniqueAddress, path);
+        return uniqueAddress;
     }
 
     private static void KeepOnlyMainSceneInBuildSettings()

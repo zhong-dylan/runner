@@ -25,7 +25,7 @@ public class TTBuilder : IBuilder
         SetProperty(settings, "wasmMemorySize", 496);
         SetProperty(settings, "framework", "Wasm");
         SetProperty(settings, "needCompress", true);
-        SetProperty(settings, "OutputDir", "Build/TT");
+        SetProperty(settings, "OutputDir", BuildOutputPath);
         SetProperty(settings, "symbolMode", "External");
         SetProperty(settings, "buildOptions", BuildOptions.CleanBuildCache);
 

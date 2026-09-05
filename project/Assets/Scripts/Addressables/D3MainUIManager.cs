@@ -46,7 +46,7 @@ public class D3MainUIManager : MonoBehaviour
 
     public IEnumerator LoadTitle(D3TitleCharacter title)
     {
-        yield return LoadPrefab(TitleGUIAddress, value => TitleGUI = value, () => TitleGUI, true);
+        yield return LoadPrefab(TitleGUIAddress, value => TitleGUI = value, () => TitleGUI, false);
         yield return LoadPrefab(TextObjectAddress, value => TextObject = value, () => TextObject, true);
         BindTitleCharacter(title);
     }

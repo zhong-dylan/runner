@@ -10,24 +10,32 @@ public abstract class IBuilder
 {
     public const string WxDefine = "UNITY_WX";
     public const string TtDefine = "UNITY_TT";
-    public const string FlagRunnerDefine = "FLAG_RUNNER";
-    public const string CdnUrl = "https://qzz2d.qzzres.com/M5_BUILD_TEST";
-    public const string GameName = "Flag Runner";
     public const string MainScenePath = "Assets/Main.unity";
+
+    public static string GameName => D3MiniGamePublishConfig.Load().productName;
+    public static string GetCdnUrl(string platformDefine) => D3MiniGamePublishConfig.GetCdnUrl(platformDefine);
 
     protected abstract string PlatformDefine { get; }
     protected abstract string Channel { get; }
     protected abstract string BuildFolderName { get; }
 
-    public void Build()
+    protected string BuildOutputPath => D3MiniGamePublishConfig.GetBuildOutputPath(PlatformDefine);
+    protected string CdnUrl => GetCdnUrl(PlatformDefine);
+
+    public bool Build()
     {
         D3MiniGamePlatformTool.SwitchPlatform(PlatformDefine);
+        if (!D3MiniGamePlatformTool.BuildAddressables(PlatformDefine))
+        {
+            Debug.LogError("Addressables build failed. Platform build skipped.");
+            return false;
+        }
 
         var sdkHandled = TrySdkBuild();
         if (sdkHandled)
-            return;
+            return true;
 
-        var outputPath = Path.Combine("Build", BuildFolderName);
+        var outputPath = BuildOutputPath;
         Directory.CreateDirectory(outputPath);
 
         var options = new BuildPlayerOptions
@@ -43,10 +51,11 @@ public abstract class IBuilder
         if (report.summary.result == UnityEditor.Build.Reporting.BuildResult.Succeeded)
         {
             Debug.Log($"{BuildFolderName} WebGL build succeeded: {report.summary.totalSize} bytes, CDN={CdnUrl}");
-            return;
+            return true;
         }
 
         Debug.LogError($"{BuildFolderName} WebGL build failed: {report.summary.result}");
+        return false;
     }
 
     protected virtual bool TrySdkBuild()

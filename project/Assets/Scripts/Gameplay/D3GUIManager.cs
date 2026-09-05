@@ -53,6 +53,7 @@ public class D3GUIManager : MonoBehaviour
     public GameObject HeroGui;
     public GameObject RewardWindow;
     public GameObject PanelRandomReward;
+    private Coroutine closeBestScoreRoutine;
 
     public Text BestScoreText;
 
@@ -1334,11 +1335,43 @@ public class D3GUIManager : MonoBehaviour
     }
 
 	
-    public void CloseWindowBestScore()
+	public void CloseWindowBestScore()
+    {
+        if (closeBestScoreRoutine != null)
+        {
+            return;
+        }
+
+        closeBestScoreRoutine = StartCoroutine(CloseWindowBestScoreRoutine());
+    }
+
+    private IEnumerator CloseWindowBestScoreRoutine()
     {
         DisappearWindow(BestScoreGUI);
-        BestScoreGUI.SetActive(false);
+        yield return WaitForWindowAnimation(BestScoreGUI, 0.35f);
+        if (BestScoreGUI != null)
+        {
+            BestScoreGUI.SetActive(false);
+        }
+
+        closeBestScoreRoutine = null;
         WinGame();
+    }
+
+    private IEnumerator WaitForWindowAnimation(GameObject window, float fallbackDuration)
+    {
+        yield return null;
+
+        var anim = window != null ? window.GetComponent<Animator>() : null;
+        if (anim == null)
+        {
+            yield return new WaitForSeconds(fallbackDuration);
+            yield break;
+        }
+
+        var state = anim.GetCurrentAnimatorStateInfo(0);
+        var duration = state.length > 0f ? state.length : fallbackDuration;
+        yield return new WaitForSeconds(duration);
     }
 
     public void WinGame()
