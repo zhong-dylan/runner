@@ -6,3 +6,5 @@ project/Logs
 project/Temp
 *.csproj
 *.sln
+project/Assets/MiniGamePublishConfig.json
+project/Assets/MiniGamePublishConfig.json.meta
